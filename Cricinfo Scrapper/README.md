@@ -26,3 +26,11 @@ In IPL 2021, around 400 crores has spent a large portion is used to form teams a
 * [NodeJs](https://nodejs.org/api/fs.html)
 * [Cheerio](https://www.npmjs.com/package/cheerio)
 
+# Challenges
+The main challenge here is the use of cheerio to load html pages and then extract the useful data from site. The other one is in converting the json obj to excel file. To solve both these problems I use [stackOverflow]("https://stackoverflow.com")
+
+# Future Improvements
+This project can be used to extract data that can be used by the ML algorithms to give predictions about the choice of players. The method of data analysis can be further added in the project
+
+# Drawbacks
+The project can be useful for static pages and the pages that have less secure. More secure and dynamic site such as Facebook, Instagram etc. cannot be extracted by this project.
